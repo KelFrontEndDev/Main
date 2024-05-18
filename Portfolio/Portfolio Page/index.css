@@ -104,13 +104,6 @@ nav {
     margin-right: var(--spacing-3);
 }
 
-.about-me-paragrpahs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    float: left;
-}
 
 .portrait {
 	width: 25%;
@@ -145,6 +138,11 @@ nav {
 
 .project-image{
     width: 75%;
+}
+
+a:hover {
+    opacity: 0.8;
+    
 }
 
 
