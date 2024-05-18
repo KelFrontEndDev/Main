@@ -152,6 +152,24 @@ nav {
     width: 150px;
 }
 
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    
+    }
+
+skills-text-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 75%;
+    margin-right: var(--spacing-3);
+
+}
+
 /* #ID's */
 
 
@@ -194,27 +212,13 @@ nav {
 
 
 
-#contact {
-    
+#skills-heading{
+    margin-right: 1rem;
 }
 
 
 
-.skills-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    }
 
-.skills-text-container {
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    width: 70%;
-    margin-right: var(--spacing-3);
-
-}
 
 /*SVG in Skills area*/
 .bi-filetype-css {
