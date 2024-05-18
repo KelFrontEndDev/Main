@@ -175,17 +175,17 @@ nav {
     }
 
 .skills-text-container {
-    display: inline;
-    align-items: center;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 70%;
     margin-right: var(--spacing-3);
 
 }
 
 /*SVG in Skills area*/
 .bi-filetype-css {
-    display: inline;
-    justify-content: space-between;
+    
     
 }
 
