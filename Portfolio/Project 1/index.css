@@ -14,6 +14,7 @@ html {
         --font-color: #ffffff;
         
 }
+
 /*Elements*/
 body {
    
@@ -134,9 +135,8 @@ nav {
 .sites {
     width: 150px;
 }
+
 /* #ID's */
-
-
 #nav-items {
     display: flex;
     list-style: none;
@@ -172,15 +172,21 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 100;
-}
+    }
 
 .skills-text-container {
     display: inline;
     align-items: center;
-    justify-content: center;
-    width: 75%;
+    width: 100%;
     margin-right: var(--spacing-3);
+
+}
+
+/*SVG in Skills area*/
+.bi-filetype-css {
+    display: inline;
+    justify-content: space-between;
+    
 }
 
 /*Responsive Design*/
