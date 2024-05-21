@@ -6,9 +6,10 @@ import './App.css';
 
 function App() {
   return (
-    <><NavBar /><main>
-      <MyFigure />
+    <><NavBar />
+    <main className='flex justify-between'>
       <MySection />
+      <MyFigure />
     </main></>
   );
  
