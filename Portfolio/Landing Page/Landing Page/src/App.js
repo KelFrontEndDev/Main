@@ -1,16 +1,16 @@
-import NavBar from '../Components/NavBar';
-import MyFigure from '../Components/NavBar';  
-import MySection from '../Components/MySection';
+import NavBar from './NavBar';
+import MyFigure from './MyFigure';
+import MySection from './MySection';
 
 import './App.css';
 
 function App() {
   return (
-    <NavBar />
-    <main>
+    
+    <><NavBar /><main>
       <MyFigure />
       <MySection />
-    </main>
+    </main></>
   );
  
 }
