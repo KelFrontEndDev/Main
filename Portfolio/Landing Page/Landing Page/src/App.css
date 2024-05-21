@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -6,6 +8,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+
+/* ID list for NAVBAR.jsx*/
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
