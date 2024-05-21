@@ -6,7 +6,6 @@ import './App.css';
 
 function App() {
   return (
-    
     <><NavBar /><main>
       <MyFigure />
       <MySection />

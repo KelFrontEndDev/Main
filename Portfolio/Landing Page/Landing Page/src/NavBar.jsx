@@ -2,10 +2,10 @@ import React from 'react'
 
 function NavBar() {
   return (
-    <nav className='flex justify-between items-center px-52'>
-      <header className='text'>Kelvin Arias</header>
+    <nav className=''>
+      <header className='text-color-red'>Kelvin Arias</header>
       <ul>
-      <h1 className="text-3xl font-bold underline">
+      <h1 >
       Hello world!
     </h1>
         <li>Home</li>
@@ -14,7 +14,7 @@ function NavBar() {
         <li>Skills</li>
         <li>Contact</li>
       </ul>
-      <button className='outline outline-1 outline-[]'>Resume</button>
+      <button className='outline-'>Resume</button>
     </nav>
   )
 }
