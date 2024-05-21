@@ -5,7 +5,13 @@ import MySection from '../Components/MySection';
 import './App.css';
 
 function App() {
-  return ();
+  return (
+    <NavBar />
+    <main>
+      <MyFigure />
+      <MySection />
+    </main>
+  );
  
 }
 
