@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import ToDoForm from './ToDoForm';
 
 function ToDoWrapper() {
   return (
-    <div>ToDoWrapper</div>
+    <div className='TodoWrapper'>
+        <ToDoForm />
+    </div>
   )
 }
 

@@ -1,9 +1,13 @@
 import React from 'react'
 
-function todoForm() {
+function ToDoForm() {
   return (
-    <div>todoForm</div>
+    <form className='ToFoForm'>
+        <input type='text' className='todo-input' placeholder='What is the task today?'/>
+        <button type='submit' className='todo-btn'>Add Task</button>
+    
+    </form>
   )
 }
 
-export default todoForm
+export default ToDoForm
