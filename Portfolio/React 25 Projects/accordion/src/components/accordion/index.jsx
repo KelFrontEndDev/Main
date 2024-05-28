@@ -5,8 +5,12 @@ import data from "./data";
 
 // mulitple selection
 export default function Accordion() {
-
     const [selected, setSelected] = useState(null);
+
+    function handleSingleSelection(getCurrentId) {
+        console.log(getCurrentId);
+
+    }
 
     return <div className="wrapper">
         <div className="accordion">
@@ -14,7 +18,7 @@ export default function Accordion() {
                data && data.length > 0 ?
                data.map(dataItem=> 
                <div className="item">
-                <div className="title">
+                <div onClick={()=>handleSingleSelection(dataItem.id)} className="title">
                     <h3>{dataItem.question}</h3>
                     <span>+</span>
                 </div>
