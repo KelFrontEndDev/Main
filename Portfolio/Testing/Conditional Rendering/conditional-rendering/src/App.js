@@ -1,12 +1,22 @@
 import './App.css';
 
-export default function Button() {
-  function handleClick() {
-    alert('You Clicked me!')
-  }
+function AlertButton({ message, children }) {
   return (
-    <button onClick={handleClick}>
-      I don't do anything
+    <button onClick={() => alert(message)} >
+      {children}
     </button>
   );
+}
+
+export default function Toolbar() {
+  return (
+    <div>
+      <AlertButton message="Playing!">
+        Play Movie
+      </AlertButton>
+      <AlertButton message="Uploading!">
+        Upload Image
+      </AlertButton>
+    </div>
+  )
 }
