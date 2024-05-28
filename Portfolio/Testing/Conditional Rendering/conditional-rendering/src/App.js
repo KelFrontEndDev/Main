@@ -1,13 +1,12 @@
 import './App.css';
 
-function Cup({ guest }) {
-  return <h2>Tea cup for guest #{guest}</h2>;
-}
-
-export default function TeaGathering() {
-  let cups = [];
-  for (let i = 1; i <= 12; i++) {
-    cups.push(<Cup key={i} guest={i} />);
+export default function Button() {
+  function handleClick() {
+    alert('You Clicked me!')
   }
-  return cups;
+  return (
+    <button onClick={handleClick}>
+      I don't do anything
+    </button>
+  );
 }
