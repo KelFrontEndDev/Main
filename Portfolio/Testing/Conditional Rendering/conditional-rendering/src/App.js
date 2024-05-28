@@ -1,22 +1,13 @@
 import './App.css';
 
-function AlertButton({ message, children }) {
+export default function Signup() {
   return (
-    <button onClick={() => alert(message)} >
-      {children}
-    </button>
+    <form onSubmit={e => {
+      e.preventDefault();
+      alert('Submitting!');
+    }}>
+      <input />
+      <button>Send</button>
+    </form>
   );
-}
-
-export default function Toolbar() {
-  return (
-    <div>
-      <AlertButton message="Playing!">
-        Play Movie
-      </AlertButton>
-      <AlertButton message="Uploading!">
-        Upload Image
-      </AlertButton>
-    </div>
-  )
 }
